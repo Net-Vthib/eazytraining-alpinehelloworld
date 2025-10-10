@@ -71,6 +71,7 @@ pipeline {
                 '''
             }
           }
+        }
         stage ('Deploy in prod') {
             agent any
             environment {
@@ -93,6 +94,6 @@ pipeline {
                 }
             }
         }
-
     }
 }
+
