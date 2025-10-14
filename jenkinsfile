@@ -1,12 +1,12 @@
 pipeline {
   agent none
   environment {
-    DOCKERHUB_AUTH = credentials('Net-Vthib')
+    DOCKERHUB_AUTH = credentials('netvtib')
     ID_DOCKER      = "${DOCKERHUB_AUTH_USR}"
     PORT_EXPOSED   = "80"
     IMAGE_NAME     = "alpinebootcamp27"
     IMAGE_TAG      = "v1.2"
-    DOCKER_USERNAME = 'netvthib'
+    DOCKER_USERNAME = 'Net-Vthib'
   }
 
   stages {
