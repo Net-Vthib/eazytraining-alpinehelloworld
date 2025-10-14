@@ -6,7 +6,7 @@ pipeline {
     PORT_EXPOSED   = "80"
     IMAGE_NAME     = "alpinebootcamp27"
     IMAGE_TAG      = "v1.2"
-    DOCKER_USERNAME = 'Net-Vthib'
+    DOCKER_USERNAME = 'netvthib'
   }
 
   stages {
